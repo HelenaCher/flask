@@ -139,4 +139,4 @@ def news_delete(id):
         abort(404)
     return redirect('/')
 if __name__ == '__main__':
-    app.run(port=8025, host='127.0.0.1')
+    app.run(port=8080, host='0.0.0.0')
